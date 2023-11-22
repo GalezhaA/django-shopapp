@@ -54,6 +54,7 @@ INTERNAL_IPS = [
 ALLOWED_HOSTS = [
     '0.0.0.0',
     '127.0.0.1',
+    '158.160.15.184'
 ] + getenv("DJANGO_ALLOWED_HOSTS", "").split(",")
 
 if DEBUG:
