@@ -7,8 +7,8 @@ authors = ["Артëм Галежа <artemgalezha@mail.ru>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 django = "4.2.4"
-djangorestframework = "3.14.0"
-django-filter = "23.3"
+djangorestframework = "^3.14.0"
+django-filter = "^23.4"
 pillow = "^10.1.0"
 django-debug-toolbar = "^4.2.0"
 gunicorn = "^21.2.0"
