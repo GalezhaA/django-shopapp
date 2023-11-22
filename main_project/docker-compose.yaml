@@ -8,7 +8,7 @@ services:
       - "gunicorn"
       - "mysite.wsgi:application"
       - "--bind"
-      - "0.0.0.0:8080"
+      - "158.160.15.184:8080"
     ports:
       - "8000:8080"
     restart: "always"
