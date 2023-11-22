@@ -1,0 +1,212 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Laptop",
+      "description": "",
+      "price": "1199.00",
+      "discount": 0,
+      "created_at": "2023-08-28T18:10:49.471Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Desktop",
+      "description": "",
+      "price": "2599.00",
+      "discount": 10,
+      "created_at": "2023-08-28T18:10:49.471Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Что такое Lorem Ipsum?\r\nLorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
+      "price": "899.00",
+      "discount": 25,
+      "created_at": "2023-08-28T18:10:49.471Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Chair pop",
+      "description": "qwerty",
+      "price": "12.00",
+      "discount": 10,
+      "created_at": "2023-09-18T16:21:39.447Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "Compucter",
+      "description": "Super compukter",
+      "price": "1000.00",
+      "discount": 9,
+      "created_at": "2023-09-19T13:36:45.304Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "Test product",
+      "description": "123qwerty",
+      "price": "1111.00",
+      "discount": 11,
+      "created_at": "2023-09-23T09:38:34.798Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 17,
+    "fields": {
+      "name": "aboba",
+      "description": "qwerty",
+      "price": "11.00",
+      "discount": 10,
+      "created_at": "2023-10-03T11:25:23.686Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 18,
+    "fields": {
+      "name": "Pozhiloi",
+      "description": "asdasd",
+      "price": "100.00",
+      "discount": 12,
+      "created_at": "2023-10-03T12:37:10.536Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 19,
+    "fields": {
+      "name": "uytre",
+      "description": "gkkkkkkkkkkkkkkkkkk",
+      "price": "147.00",
+      "discount": 0,
+      "created_at": "2023-10-03T13:18:54.453Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 20,
+    "fields": {
+      "name": "chpinka",
+      "description": "123wddfsfdddddddddddddddddddddddd",
+      "price": "11110.00",
+      "discount": 0,
+      "created_at": "2023-10-04T06:33:25.528Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 21,
+    "fields": {
+      "name": "ddsf",
+      "description": "qweeeeeeeeeeeee",
+      "price": "111111.00",
+      "discount": 0,
+      "created_at": "2023-10-04T06:46:22.384Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 22,
+    "fields": {
+      "name": "qweerty",
+      "description": "11111111111111111",
+      "price": "111111.00",
+      "discount": 0,
+      "created_at": "2023-10-04T06:48:51.006Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 23,
+    "fields": {
+      "name": "Testing Sam",
+      "description": "Sam's id is..?",
+      "price": "100.00",
+      "discount": 0,
+      "created_at": "2023-10-05T10:11:54.703Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 24,
+    "fields": {
+      "name": "Testing",
+      "description": "Sam's id is..?",
+      "price": "100.00",
+      "discount": 0,
+      "created_at": "2023-10-05T10:12:27.845Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 25,
+    "fields": {
+      "name": "Testing",
+      "description": "Sam's id is..2",
+      "price": "100.00",
+      "discount": 0,
+      "created_at": "2023-10-05T10:13:07.057Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "ul Pupkina, d7",
+      "promocode": "sale123",
+      "created_at": "2023-08-29T09:51:48.080Z",
+      "user": 1,
+      "products": [
+        3,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 6,
+    "fields": {
+      "delivery_address": "",
+      "promocode": "",
+      "created_at": "2023-10-04T06:42:42.678Z",
+      "user": 2,
+      "products": [
+        15,
+        3,
+        2
+      ]
+    }
+  }
+]

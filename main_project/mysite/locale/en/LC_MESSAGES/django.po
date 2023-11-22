@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-14 18:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: myauth/views.py:19
+msgid "Hello world!"
+msgstr ""
+
+#: mysite/settings.py:136
+msgid "English"
+msgstr ""
+
+#: mysite/settings.py:137
+msgid "Russian"
+msgstr ""
+
+#: shopapp/models.py:17
+msgid "product"
+msgstr ""
+
+#: shopapp/models.py:18
+msgid "products"
+msgstr ""
+
+#: shopapp/models.py:20
+msgid "наименование"
+msgstr "name"
+
+#: shopapp/models.py:21
+msgid "описание"
+msgstr "description"
+
+#: shopapp/models.py:22
+msgid "стоимость"
+msgstr "price"
+
+#: shopapp/models.py:23
+msgid "скидка"
+msgstr "sale"
+
+#: shopapp/models.py:24 shopapp/models.py:54
+msgid "дата создания"
+msgstr "created at"
+
+#: shopapp/models.py:25
+msgid "в архиве"
+msgstr "archived"
+
+#: shopapp/models.py:26
+msgid "создано пользователем"
+msgstr "created by"
+
+#: shopapp/models.py:27
+msgid "превью"
+msgstr "preview"
+
+#: shopapp/models.py:49
+msgid "Order"
+msgstr ""
+
+#: shopapp/models.py:50
+msgid "Orders"
+msgstr ""
+
+#: shopapp/models.py:52
+msgid "адрес доставки"
+msgstr "delivery address"
+
+#: shopapp/models.py:53
+msgid "промокод"
+msgstr "promocode"
+
+#: shopapp/models.py:55
+msgid "пользователь"
+msgstr "created by"
+
+#: shopapp/models.py:56
+msgid "продукты"
+msgstr "products"
+
+#: shopapp/models.py:57
+msgid "чек"
+msgstr "receipt"
+
+#: shopapp/templates/shopapp/product-details.html:6
+#: shopapp/templates/shopapp/product-details.html:11
+msgid "Product"
+msgstr ""
+
+#: shopapp/templates/shopapp/product-details.html:15
+msgid "Description"
+msgstr ""
+
+#: shopapp/templates/shopapp/product-details.html:17
+msgid "Price"
+msgstr ""
+
+#: shopapp/templates/shopapp/product-details.html:18
+msgid "Discount"
+msgstr ""
+
+#: shopapp/templates/shopapp/product-details.html:19
+msgid "Archived"
+msgstr ""
+
+#: shopapp/templates/shopapp/product-details.html:26
+#, python-format
+msgid ""
+"\n"
+"        There is only one image.\n"
+"        "
+msgid_plural ""
+"\n"
+"        There are %(images_count)s images.\n"
+"    "
+msgstr[0] ""
+msgstr[1] ""
+
+#: shopapp/templates/shopapp/product-details.html:49
+#, python-format
+msgid ""
+"\n"
+"       <div>\n"
+"        <a href=\"%(update)s\">Update product</a>\n"
+"    </div>\n"
+"\n"
+"       <div>\n"
+"        <a href=\"%(archive)s\">Archive product</a>\n"
+"    </div>\n"
+"\n"
+"    <div>\n"
+"        <a href=\"%(back)s\">Back to products list</a>\n"
+"    </div>\n"
+"\n"
+msgstr ""

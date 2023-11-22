@@ -1,0 +1,31 @@
+{% extends 'shopapp/base.html' %}
+{% load cache %}
+
+{% block title %}
+	User orders
+{% endblock %}
+
+{% block body %}
+	<div>
+
+        {% if user_order %}
+            <h3>Пользователь {{ data.user }} выполнил следующие заказы: </h3>
+            {% cache 100 orders_list data.user.id%}
+            <div>
+            <ul>
+            {% for value in data.orders.values %}
+            	<li><b><a href="{% url 'shopapp:order_details' pk=value.id %}">Pk: {{ value.id }}</a></b></li>
+                <li>Delivery address: {{ value.delivery_address }}</li>
+                <li>Promocode: {{ value.promocode }}</li>
+                <li>Created at: {{ value.created_at }}</li>
+                <br>
+            {% endfor %}
+            </ul>
+            </div>
+            {% endcache %}
+        {% else %}
+            <h3>У пользователя {{ user_order.user }} ещё нет заказов.</h3>
+        {% endif %}
+
+    </div>
+{% endblock %}

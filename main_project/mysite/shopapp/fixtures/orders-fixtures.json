@@ -1,0 +1,45 @@
+[
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "ul Pupkina, d7",
+      "promocode": "sale123",
+      "created_at": "2023-08-29T09:51:48.080Z",
+      "user": 1,
+      "products": [
+        3,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 6,
+    "fields": {
+      "delivery_address": "",
+      "promocode": "",
+      "created_at": "2023-10-04T06:42:42.678Z",
+      "user": 2,
+      "products": [
+        15,
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 7,
+    "fields": {
+      "delivery_address": "",
+      "promocode": "",
+      "created_at": "2023-10-07T16:44:26.432Z",
+      "user": 3,
+      "products": [
+        15
+      ]
+    }
+  }
+]
