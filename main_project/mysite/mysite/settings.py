@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from os import getenv
 
 import django.middleware.cache
 from django.urls import reverse_lazy
@@ -38,10 +39,13 @@ DATABASE_DIR.mkdir(exist_ok=True)
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-)_4-7qr$@d$(#jb9$svgt4k_6srul)4o!u4k$dp#00v3kf8%s4'
+SECRET_KEY = getenv(
+    "DJANGO_SECRET_KEY",
+    'django-insecure-)_4-7qr$@d$(#jb9$svgt4k_6srul)4o!u4k$dp#00v3kf8%s4'
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = getenv("DJANGO_DEBUG", "0") == 1
 
 INTERNAL_IPS = [
     '127.0.0.1',
@@ -50,8 +54,7 @@ INTERNAL_IPS = [
 ALLOWED_HOSTS = [
     '0.0.0.0',
     '127.0.0.1',
-    '158.160.15.184',
-]
+] + getenv("DJANGO_ALLOWED_HOSTS", "").split(",")
 
 if DEBUG:
     import socket
